@@ -1,0 +1,3 @@
+https://www.freecodecamp.org/news/pyscript-python-front-end-framework/
+
+https://docs.pyscript.net/latest/

@@ -1,0 +1,7 @@
+Home page for explanation
+
+Maintinence page for an updated maintinence schedule on the bike
+
+Gallery page for pictures of the bike
+
+Info page for specs and info on the bike
