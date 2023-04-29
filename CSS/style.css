@@ -1,0 +1,30 @@
+div#mainTitle {
+    font-size: 100;
+    padding-top: 70px;
+}
+
+div#NavBanner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    width: 100%;
+}
+
+div#NavButtons {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+div#NavText {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+div#descriptionContent {
+    padding-top: 70px;
+}
