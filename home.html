@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="css\style.css">
+    <!-- Navbar -->
+    <script src="stickyNavBar/stickyNav.js"></script>
+    <link rel="stylesheet" href="stickyNavBar/StickyNav.css">
+    <!-- Main style -->
+    <link rel="stylesheet" href="CSS/home.css">
+    <!-- Main Script -->
+    <script src="JS/home.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cj's CRF Project</title>
+    <title>Cj's CRF Project | Home</title>
     <div id="stickyBanner">
         <div id="Buttons">
             <input type="button" id="homeBTN" value="Home" onclick="homeButton()">
             <input type="button" id="galleryBTN" value="Gallery" onclick="galleryButton()">
-            <input type="button" id="maintinenceBTN" value="Maintinence">
-            <input type="button" id="specificationBTN" value="Specifications">
-            <input type="button" id="manualBTN" value="Manual">
+            <input type="button" id="maintenanceBTN" value="Maintenance" onclick="maintenanceButton()">
+            <input type="button" id="specsBTN" value="Specifications" onclick="specsButton()">
+            <input type="button" id="manualBTN" value="Manual" onclick="manualButton()">
         </div>
     </div>
     <div id="mainTitle">

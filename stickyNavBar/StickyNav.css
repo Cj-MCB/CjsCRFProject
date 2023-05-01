@@ -1,0 +1,7 @@
+#stickyBanner {
+    position: sticky;
+    color: black;
+    background-color: gray;
+    top: 0px;
+    padding: 10px 0px;
+}
