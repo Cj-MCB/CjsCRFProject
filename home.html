@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Icons https://materializecss.com/icons.html -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Navbar -->
     <script src="stickyNavBar/stickyNav.js"></script>
     <link rel="stylesheet" href="stickyNavBar/StickyNav.css">
@@ -14,7 +16,10 @@
     <title>Cj's CRF Project | Home</title>
     <!-- Make collapsable to the side later -->
     <!-- Add search bar to search sitewide for words -->
-    <div id="stickyBanner">
+    <div id="Banner">
+        <div id="collapse">
+            <input type="button" id="collapseBTN"><i class="material-icons" id="Open Icon">dehaze</i></input>
+        </div>
         <div id="Buttons">
             <input type="button" id="homeBTN" value="Home" onclick="homeButton()">
             <input type="button" id="galleryBTN" value="Gallery" onclick="galleryButton()">
@@ -22,6 +27,9 @@
             <input type="button" id="specsBTN" value="Specifications" onclick="specsButton()">
             <input type="button" id="manualBTN" value="Manual" onclick="manualButton()">
         </div>
+        <!--<div id="search">
+
+        </div>-->
     </div>
     <div id="mainTitle">
         <h1>CjMCB's Honda CRF150F Project</h1>

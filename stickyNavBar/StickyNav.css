@@ -1,7 +1,16 @@
-#stickyBanner {
+#Banner {
     position: sticky;
     color: black;
     background-color: gray;
     top: 0px;
     padding: 10px 0px;
+}
+
+#Buttons{ 
+    padding: 10px;
+}
+
+#Collapse {
+    padding: 10px;
+    align-items: right;
 }
