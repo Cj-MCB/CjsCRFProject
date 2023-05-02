@@ -23,8 +23,13 @@
     </div>
 </head>
 <body>
+    <div id="sizeAdjust">
+        <input type="button" value="Fit" id="fitToScreen" onclick="fitToScreen()">
+        <input type="button" value="100%" id="100Size" onclick="fullSize()">
+        <input type="button" value="50%" id="50Size" onclick="halfSIze()">
+    </div>
     <div id="PDF">
-        <object data="http://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf150f.pdf" type="application/pdf" width="100%" height="1000px">
+        <object id="manual" data="http://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf150f.pdf" type="application/pdf">
             <p>Unable to load manual.</p>
         </object>
         <p id="noLoadTXT">If the manual is loading slow or will not load, you can download it below.<br><a target="_blank" href="http://owners.honda.com/assets/ownerlink/model/own_man/powersports/2005/2005_crf150f.pdf">Download</a></p>
