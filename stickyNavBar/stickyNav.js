@@ -14,3 +14,7 @@ function specsButton() {
 function manualButton () {
     window.location.href="/manual.html";
 }
+
+function collapseButton() {
+    
+}
