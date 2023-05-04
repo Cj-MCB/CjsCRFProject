@@ -2,9 +2,19 @@
     padding: 0px;
 }
 
+#mSchedule {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #mSchedule table,
 td{
     border: 1px solid black;
+    text-align: center;
+}
+
+#mSchedule thead {
+    line-height: 20px
 }
 
 #mSchedule thead, tfoot {
@@ -14,4 +24,14 @@ td{
 
 #moddedManual {
     font-size: 10px;
+}
+
+#mKey {
+    position: sticky;
+}
+
+#mKey thead{
+    background-color: gray;
+    color: white;
+    border: 1px solid black;
 }
