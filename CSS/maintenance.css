@@ -1,3 +1,17 @@
-* {
-    padding: 10px;
+#title {
+    padding: 0px;
+}
+
+#mSchedule table,
+td{
+    border: 1px solid black;
+}
+
+#mSchedule thead, tfoot {
+    background-color: gray;
+    color: white;
+}
+
+#moddedManual {
+    font-size: 10px;
 }
