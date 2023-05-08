@@ -24,10 +24,7 @@ td{
 
 #moddedManual {
     font-size: 10px;
-}
-
-#mKey {
-    position: sticky;
+    text-align: center;
 }
 
 #mKey thead{
@@ -47,4 +44,9 @@ td{
 
 #showPage {
     visibility: hidden;
+}
+
+#showpg {
+    width: 1000px;
+    height: 1000px;
 }
