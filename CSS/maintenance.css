@@ -1,5 +1,6 @@
 #title {
     padding: 0px;
+    text-align: center;
 }
 
 #mSchedule {
@@ -27,6 +28,12 @@ td{
     text-align: center;
 }
 
+#mKey {
+    position: sticky;
+    top: 50px;
+    padding: 10px;
+}
+
 #mKey thead{
     background-color: gray;
     color: white;
@@ -47,6 +54,5 @@ td{
 }
 
 #showpg {
-    width: 1000px;
-    height: 1000px;
+    padding: 10px;
 }
