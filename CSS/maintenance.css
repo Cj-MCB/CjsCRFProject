@@ -50,9 +50,21 @@ td{
 }
 
 #showPage {
-    visibility: hidden;
-}
-
-#showpg {
     padding: 10px;
-}
+    background-color: transparent!important;
+    text-align: center;
+  }
+  
+  #showpg {
+    width: 1080px;
+    height: 767px;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: transparent!important;
+    border: 2px solid black;
+    border-radius: 20px;
+    object-fit: cover!important;
+    scale: 75%!important;
+    display: inline-block;
+    text-align: left;
+  }  
