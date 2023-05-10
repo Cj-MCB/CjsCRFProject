@@ -1,3 +1,0 @@
-Resize all images to 1080p width and preserve aspect ratio.
-Use site:
-https://express.adobe.com/tools/image-resize

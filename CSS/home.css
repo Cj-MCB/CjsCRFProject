@@ -1,8 +1,9 @@
-#mainTitle {
-    font-size: 100;
+#title {
     color: black;
+    text-align: center;
 }
 
 #naHonda {
     font-size: 10px;
+    text-align: right;
 }
