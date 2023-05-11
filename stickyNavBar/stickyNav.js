@@ -19,7 +19,9 @@ window.addEventListener("DOMContentLoaded", (event) => {
     const searchBar = document.getElementById("searchBar");
     searchBar.addEventListener('keydown', function(search) {
         if  (search.key == 'Enter') {
-            console.log("Enter Key Pressed from Searchbar.")
+            console.log("Enter Key Pressed from Searchbar.");
+            console.log("Search:", searchBar.value);
+            let query = searchBar.value;
         }
     });
 });
